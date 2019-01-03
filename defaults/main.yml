@@ -1,4 +1,13 @@
 ---
+# Enable the update of the /etc/hostname file
+enable_hostname_file_update: true
+
+# Enable the update of the /etc/hosts file
+enable_hosts_file_update: true
+
+# Enable the update of the /etc/hosts file
+enable_hosts_file_update: true
+
 # defaults file for hosts
 hosts_ipv4_loopback_hosts:
   address: 127.0.0.1

@@ -6,4 +6,7 @@
   when: ansible_os_family == 'FreeBSD'
 
 - include: hostname.yml
+  when: enable_hostname_file_update == true
+
 - include: hosts.yml
+  when: enable_hosts_file_update == true
